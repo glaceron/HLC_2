@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Introduce el primer numero:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNumero2"
+        android:layout_width="188dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Introduce el segundo numero:"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumero1" />
+
+    <Button
+        android:id="@+id/botonMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Mostrar"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumero2" />
+
+    <EditText
+        android:id="@+id/editTextNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumero1" />
+
+    <EditText
+        android:id="@+id/editTextNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumero2" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Resultado:"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/botonMostrar" />
+
+    <TextView
+        android:id="@+id/textViewNumeros"
+        android:layout_width="340dp"
+        android:layout_height="395dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewResultado"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultado" />
+</androidx.constraintlayout.widget.ConstraintLayout>

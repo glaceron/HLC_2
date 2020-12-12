@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HLC_2</string>
+    <string name="actividad_2">Actividad 2</string>
+    <string name="actividad_1">Actividad 1</string>
+    <string name="cafes">cafes</string>
+    <string name="cero">0</string>
+    <string name="menos">-</string>
+    <string name="cinco">5</string>
+    <string name="mas">+</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="reiniciar_cafes">Reiniciar cafés</string>
+    <string name="descendente">Descendente</string>
+    <string name="introduce_la_url">Introduce la URL:</string>
+    <string name="url">URL</string>
+    <string name="lanzar_webview">Lanzar WebView</string>
+    <string name="lanzar_navegador">Lanzar navegador</string>
+</resources>
